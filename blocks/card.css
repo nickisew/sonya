@@ -1,6 +1,6 @@
 .card {
   display: flex;
-  flex-direction: center;
+  flex-direction: column;
   justify-content: center;
 }
 .card__image {
