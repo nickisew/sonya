@@ -12,22 +12,29 @@
   justify-content: space-between;
 }
 
-.card__like-button {
+/*.card__like-button {
   background-image: url(../images/like-icon.svg);
   width: 23px;
   height: 20px;
   border: none;
   background-color: transparent;
   opacity: 40%;
-}
+}*/
 
 .card__title {
   text-decoration: none;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
+  width: 350px;
+  white-space: wrap;
+  font-weight: 400;
 }
 
 @media screen and (max-width: 627px) {
-  grid-template-columns: repeat(auto-fit, 288px);
+  .card__image {
+    height: 125px;
+    width: 188px;
+  }
+
+  .card__title {
+    font-size: 16px;
+  }
 }
