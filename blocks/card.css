@@ -32,3 +32,10 @@
   white-space: wrap;
   font-weight: 400;
 }
+
+@media screen and (max-width: 627px) {
+  .card__image {
+    height: 200px;
+    width: 301px;
+  }
+}
