@@ -41,6 +41,8 @@
   margin-top: auto;
   border-radius: 5px;
   background-color: #e06567;
+  -webkit-touch-callout: none; /* Prevents the callout menu */
+  -webkit-user-modify: read-only; /* Prevents link styling */
 }
 
 .profile__add-button {
