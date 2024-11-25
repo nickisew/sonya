@@ -28,12 +28,12 @@
 
 .card__title {
   text-decoration: none;
-  width: 100%;
   white-space: wrap;
   font-weight: 400;
   display: flex;
   justify-content: center;
   align-items: center;
+  font-size: 16px;
 }
 
 @media screen and (max-width: 627px) {
