@@ -2,6 +2,7 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 .card__image {
   width: 100%;
@@ -14,7 +15,6 @@
 .card__content {
   display: flex;
   align-items: center;
-  justify-content: space-between;
 }
 
 /*.card__like-button {
@@ -28,14 +28,17 @@
 
 .card__title {
   text-decoration: none;
-  width: 350px;
+  width: 100%;
   white-space: wrap;
   font-weight: 400;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @media screen and (max-width: 627px) {
   .card__image {
-    height: 200px;
-    width: 301px;
+    height: 166px;
+    width: 250px;
   }
 }
