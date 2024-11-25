@@ -40,8 +40,8 @@
 .profile__edit-button {
   margin-top: auto;
   border-radius: 5px;
-  background-color: #e06567;
-  color: white;
+  /* background-color: #e06567; */
+  background-color: white;
   -webkit-touch-callout: none; /* Prevents the callout menu */
   -webkit-user-modify: read-only; /* Prevents link styling */
 }
