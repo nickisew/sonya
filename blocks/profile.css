@@ -44,6 +44,7 @@
   color: white;
   -webkit-touch-callout: none; /* Prevents the callout menu */
   -webkit-user-modify: read-only; /* Prevents link styling */
+  border-color: none;
 }
 
 .profile__add-button {
