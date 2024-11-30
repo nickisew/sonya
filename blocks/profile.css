@@ -44,10 +44,10 @@
   font-weight: 500;
   background-color: #e06567;
   color: white;
-  -webkit-touch-callout: none; /* Prevents the callout menu */
-  -webkit-user-modify: read-only; /* Prevents link styling */
   border: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  -webkit-touch-callout: none; /* Prevents the callout menu */
+  -webkit-user-modify: read-only; /* Prevents link styling */
 }
 
 .profile__add-button {
@@ -59,7 +59,7 @@
   font-size: 60px;
   font-weight: bold;
   color: #e06567;
-  animation: fadeMove 2s ease-out forwards;
+  animation: fadeMove 4s ease-out forwards;
   font-family: "Trebuchet MS", sans-serif;
 }
 
