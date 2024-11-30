@@ -21,6 +21,8 @@ ul {
   border-radius: 5px;
   border: none;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  -webkit-touch-callout: none; /* Prevents the callout menu */
+  -webkit-user-modify: read-only; /* Prevents link styling */
 }
 
 .nav__link {
