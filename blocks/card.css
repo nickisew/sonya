@@ -14,7 +14,7 @@
 
 .card__image_landscape {
   transform: rotate(-90deg);
-  max-width: 150px;
+  max-width: 170px;
 }
 
 .card__content {
