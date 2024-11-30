@@ -12,6 +12,11 @@
   border-radius: 10px;
 }
 
+.card__image_landscape {
+  transform: rotate(-90deg);
+  max-width: 150px;
+}
+
 .card__content {
   display: flex;
   align-items: center;

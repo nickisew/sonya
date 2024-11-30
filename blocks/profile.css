@@ -39,16 +39,39 @@
 
 .profile__edit-button {
   margin-top: auto;
+  margin-bottom: 10px;
   border-radius: 5px;
+  font-weight: 500;
   background-color: #e06567;
   color: white;
   -webkit-touch-callout: none; /* Prevents the callout menu */
   -webkit-user-modify: read-only; /* Prevents link styling */
-  border-color: none;
+  border: none;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
 .profile__add-button {
   margin-left: auto;
+}
+
+.gorgeous {
+  position: absolute;
+  font-size: 60px;
+  font-weight: bold;
+  color: #e06567;
+  animation: fadeMove 2s ease-out forwards;
+  font-family: "Trebuchet MS", sans-serif;
+}
+
+@keyframes fadeMove {
+  0% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-50px);
+  }
 }
 
 @media screen and (max-width: 627px) {
