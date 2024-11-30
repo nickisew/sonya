@@ -38,12 +38,12 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 16px;
+  font-size: 12px;
 }
 
 @media screen and (max-width: 627px) {
   .card__image {
-    height: 166px;
-    width: 250px;
+    height: 199px;
+    width: 300px;
   }
 }
